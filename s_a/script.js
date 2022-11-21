@@ -1,3 +1,12 @@
+btn.onclick = function(e) {
+  DeviceMotionEvent.requestPermission().then(response => {
+    if (response == 'granted') {
+      window.addEventListener('devicemotion', (e) => {
+        /* разрешение получено */
+    })
+  }}).catch(console.error)
+}
+
 window.addEventListener("deviceorientation", handleOrientation, true);
 
 function handleOrientation(event) {
