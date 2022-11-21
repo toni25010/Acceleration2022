@@ -1,0 +1,16 @@
+body {
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-size: 150%;
+  background-color: #fff;
+  color: #666;
+}
+
+.data{
+  color: #888;
+/*   color: #f6a; */
+/*   font-size: 130%; */
+}
+
+canvas {
+/*   border: 1px solid black; */
+}
